@@ -12,7 +12,7 @@ const Navbar = () => {
   ];
 
   return (
-    <nav className="Container w-[100%] text-white py-4 fixed top-0 left-0 flex items-center justify-between z-10">
+    <nav className="Container w-[100%] bg-[#7a6ad8] text-white py-4 fixed top-0 left-0 flex items-center justify-between z-10">
       <div className="flex items-center justify-center">
         <h1 className="text-4xl font-semibold pe-6 border-r ">SCHOLAR</h1>
         <form className="relative " action="">

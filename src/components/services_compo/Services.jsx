@@ -1,7 +1,7 @@
 import React from "react";
 import ServicesCard from "./services_card/ServicesCard";
 import { Services1, Services2, Services3 } from "../../assets";
-import About from "./Accordian/Accordian";
+// import About from "./Accordian/Accordian";
 import Accordian from "./Accordian/Accordian";
 
 const Services = () => {
@@ -61,7 +61,7 @@ const Services = () => {
         })}
       </div>
       <div className="grid lg:grid-cols-2 md:grid-cols-1 gap-4">
-        <div className="bg-[#7a6ad8] rounded-2xl flex flex-col justify-center  w-full p-10 space-y-10">
+        <div className=" bg-[#7a6ad8] rounded-2xl flex flex-col items-center w-full p-14 space-y-12">
           {accordianItem.map((item, i) => {
             return (
               <Accordian
